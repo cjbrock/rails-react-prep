@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 20.times do
-  Listing.create(name: Faker::Name.name, address: Faker::Address.full_address, price: Faker::Number.decimal(l_digits: 4, r_digits: 2))
+  Listing.create(name: Faker::Company.name, address: Faker::Address.full_address, price: Faker::Number.decimal(l_digits: 4, r_digits: 2))
 end
